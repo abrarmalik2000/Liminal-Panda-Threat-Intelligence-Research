@@ -1,0 +1,21 @@
+#Liminal Panda Sigma Rule
+title: Liminal Panda IP
+description: Detects C2/network activity
+author: Abrar Malik
+date: 2026-04-22
+logsource:
+category: network_connection
+detection:
+selection:
+ip:
+- 45.76.215.0/24
+- 167.179.91.0/24
+- 45.32.116.0/24
+- 207.148.24.0/24
+- 172.104.79.0/24
+- 45.33.77.0/24
+- 139.162.156.0/24
+- 172.104.236.0/24
+- 172.104.129.0/24
+condition: selection
+level: high
