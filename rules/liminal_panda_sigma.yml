@@ -1,4 +1,4 @@
-#Liminal Panda Sigma Rule
+#SIGMA — Liminal Panda IP
 title: Liminal Panda IP
 description: Detects C2/network activity
 author: Abrar Malik
@@ -19,3 +19,19 @@ ip:
 - 172.104.129.0/24
 condition: selection
 level: high
+
+#SIGMA — SIGTRANslator & SGSN emulator
+title: LIMINAL PANDA - SIGTRANslator & SGSN emulator
+description: Detects string "wuxianpinggu507" XOR key & SGSN emulator
+author: Abrar Malik
+date: 2026/04/19
+logsource:
+category: process_creation
+product: linux
+detection:
+selection1:
+command_line|contains: 'wuxianpinggu507'
+selection2:
+command_line|contains: 'sgsnemu'
+condition: selection1 and selection2
+level: critical
