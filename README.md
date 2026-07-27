@@ -1,5 +1,4 @@
 # LIMINAL PANDA Threat Intelligence Research
-**Author:** Abrar Malik — Utah State University   
 
 ## Overview
 Analysis of LIMINAL PANDA, a China-nexus Advanced 
