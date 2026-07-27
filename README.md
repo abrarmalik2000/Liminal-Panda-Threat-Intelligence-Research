@@ -17,7 +17,7 @@ Africa, and the Middle East.
 - Structured risk assessment for telecom operators
 
 ## Repository Contents
-- `/rules/liminal_panda.yar` — YARA detection rules
+- `/rules/liminal_panda_yara.yar` — YARA detection rules
 - `/rules/liminal_panda_sigma.yml` — Sigma rules
 - `README.md` — research overview
 
@@ -34,6 +34,10 @@ Africa, and the Middle East.
 - MITRE FiGHT (5G Hierarchy of Threats)
 - Diamond Model of Intrusion Analysis
 - Cyber Kill Chain
+
+## MITRE ATT&CK TTPs
+<img width="1917" height="887" alt="LP_3" src="https://github.com/user-attachments/assets/a6bafb51-fb09-4ca6-961e-2b74869837a4" />
+
 
 ## Detection Rules
 YARA and Sigma rules provided in `/rules` directory.
